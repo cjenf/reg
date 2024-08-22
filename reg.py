@@ -4,17 +4,6 @@ import zipfile
 
 
 class reg:
-
-    def replace(
-            file:str, 
-            extract:str
-        ) -> None:
-        try:
-            shutil.move(file, extract)
-        except Exception as e:
-            return e
-        
-    def write(path:str):...
     @staticmethod
     def zip(
             path:str, 
