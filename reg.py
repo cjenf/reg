@@ -47,5 +47,3 @@ class reg:
                 zipObj.extractall(extract)
         except Exception as e:
             return e
-
-    
